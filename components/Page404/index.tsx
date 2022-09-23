@@ -10,12 +10,7 @@ const Page404 = ({}: Page404Props) => {
   return (
     <div className={cn('container', styles.container)}>
       <div className={styles.preview}>
-        <Image
-          src="/images/content/characters/image-9.png"
-          width="500"
-          height="500"
-          alt="Spaceship"
-        />
+  
       </div>
 
       <h1 className={styles.title}>404</h1>

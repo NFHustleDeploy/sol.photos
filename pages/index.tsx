@@ -7,12 +7,12 @@ const Home: NextPage = () => {
   const [domain, setDomain] = useState<string>('')
   useEffect(() => {
     const hostname = window.location.hostname
-    if (hostname === 'sol.photos') {
+    if (hostname === 'nf.hustle') {
       setDomain('')
-    } else if (hostname.endsWith('.sol.photos')) {
-      setDomain(hostname.replace('.photos', ''))
+    } else if (hostname.endsWith('.nf.hustle')) {
+      setDomain(hostname.replace('.hustle', ''))
     } else {
-      setDomain('onybose.sol')
+      setDomain('nf.hustle')
     }
   }, [])
 
